@@ -1,0 +1,319 @@
+{
+  "modelName": "master3_d_object_model",
+  "name": "Batman Cowl",
+  "identifier": "master3_d_object_model:1856503-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+  "sourceIdentifier": "asset_collection_model:1856507-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "depth": 3.189424514770508,
+  "globalScaleFactor": 0.3647420367600976,
+  "height": 5.483327388763428,
+  "hidden": false,
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": -1.570796251296997,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 0.9999999403953552,
+    "sz": 0.9999999403953552,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "width": 2.3722729682922363,
+  "children": [
+    {
+      "modelName": "sceneObject",
+      "name": "3e8cb7f5e64a4c4596f1050a7ee3c7fe.fbx",
+      "identifier": "sceneObject:1856457-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "hidden": false,
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "shapeColor": "0xff808080",
+      "shapeType": 0,
+      "tags": [],
+      "transform": {
+        "rx": 1.5707963705062866,
+        "ry": -0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "children": [
+        {
+          "modelName": "sceneObject",
+          "name": "RootNode",
+          "identifier": "sceneObject:1856459-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+          "animationMask": {
+            "position": false,
+            "rotation": false,
+            "scale": false
+          },
+          "cameraVisibility": "back|front",
+          "hidden": false,
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "shapeColor": "0xff808080",
+          "shapeType": 0,
+          "tags": [],
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 1,
+            "sy": 1,
+            "sz": 1,
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "children": [
+            {
+              "modelName": "sceneObject",
+              "name": "BatCowl",
+              "identifier": "sceneObject:1856461-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+              "animationMask": {
+                "position": false,
+                "rotation": false,
+                "scale": false
+              },
+              "cameraVisibility": "back|front",
+              "hidden": false,
+              "outputVisibility": "preview|capture",
+              "physicsEnabled": false,
+              "shapeColor": "0xff808080",
+              "shapeType": 0,
+              "tags": [],
+              "transform": {
+                "rx": 0,
+                "ry": -0,
+                "rz": 0,
+                "sx": 0.009999999776482582,
+                "sy": 0.009999999776482582,
+                "sz": 0.009999999776482582,
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "children": [
+                {
+                  "modelName": "mesh",
+                  "name": "BatCowl_blinn1_0",
+                  "identifier": "mesh:1856463-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "castShadow": false,
+                  "hidden": false,
+                  "nodeName": "BatCowl_blinn1_0",
+                  "numberOfFaces": 396,
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "prefabIdentifier": "gltf:1856467-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+                  "receiveShadow": false,
+                  "renderPass": "main_scene",
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "useEmbeddedBlendshapes": false,
+                  "children": [
+                    {
+                      "modelName": "surfaces",
+                      "identifier": "surfaces:1856465-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+                      "children": [
+                        {
+                          "modelName": "surface",
+                          "name": "surface0",
+                          "identifier": "surface:1856470-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+                          "isMaterialIdentifierEnabled": true,
+                          "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:1856447-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+                          "surfaceGroupIdentifier": "1856471-0915eacd-c776-418a-9d7e-29e1a6fe94d1"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "modelName": "mesh",
+                  "name": "BatCowl_lambert4_0",
+                  "identifier": "mesh:1856473-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "castShadow": false,
+                  "hidden": false,
+                  "nodeName": "BatCowl_lambert4_0",
+                  "numberOfFaces": 948,
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "prefabIdentifier": "gltf:1856477-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+                  "receiveShadow": false,
+                  "renderPass": "main_scene",
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "useEmbeddedBlendshapes": false,
+                  "children": [
+                    {
+                      "modelName": "surfaces",
+                      "identifier": "surfaces:1856475-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+                      "children": [
+                        {
+                          "modelName": "surface",
+                          "name": "surface0",
+                          "identifier": "surface:1856480-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+                          "isMaterialIdentifierEnabled": true,
+                          "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:1856449-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+                          "surfaceGroupIdentifier": "1856481-0915eacd-c776-418a-9d7e-29e1a6fe94d1"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "modelName": "mesh",
+                  "name": "BatCowl_lambert1_0",
+                  "identifier": "mesh:1856483-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "castShadow": false,
+                  "hidden": false,
+                  "nodeName": "BatCowl_lambert1_0",
+                  "numberOfFaces": 84,
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "prefabIdentifier": "gltf:1856487-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+                  "receiveShadow": false,
+                  "renderPass": "main_scene",
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "useEmbeddedBlendshapes": false,
+                  "children": [
+                    {
+                      "modelName": "surfaces",
+                      "identifier": "surfaces:1856485-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+                      "children": [
+                        {
+                          "modelName": "surface",
+                          "name": "surface0",
+                          "identifier": "surface:1856490-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+                          "isMaterialIdentifierEnabled": true,
+                          "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:1856451-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+                          "surfaceGroupIdentifier": "1856491-0915eacd-c776-418a-9d7e-29e1a6fe94d1"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "modelName": "mesh",
+                  "name": "BatCowl_lambert3_0",
+                  "identifier": "mesh:1856493-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "castShadow": false,
+                  "hidden": false,
+                  "nodeName": "BatCowl_lambert3_0",
+                  "numberOfFaces": 16,
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "prefabIdentifier": "gltf:1856497-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+                  "receiveShadow": false,
+                  "renderPass": "main_scene",
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "useEmbeddedBlendshapes": false,
+                  "children": [
+                    {
+                      "modelName": "surfaces",
+                      "identifier": "surfaces:1856495-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+                      "children": [
+                        {
+                          "modelName": "surface",
+                          "name": "surface0",
+                          "identifier": "surface:1856500-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+                          "isMaterialIdentifierEnabled": true,
+                          "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:1856453-0915eacd-c776-418a-9d7e-29e1a6fe94d1",
+                          "surfaceGroupIdentifier": "1856501-0915eacd-c776-418a-9d7e-29e1a6fe94d1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
